@@ -1,0 +1,3 @@
+text = open("myFile.txt", "a")  # "a" = append  "r" = read , "w" = write , "r+" = read and write both .....
+text.write("\n I am a student")
+text.close()
